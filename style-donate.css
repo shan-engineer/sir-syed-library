@@ -200,4 +200,13 @@ input[type="number"]:focus {
   display: none;
   font-size: larger;
   margin: -25px;
+
+  @media (max-width: 480px) {
+    display: none;
+    font-weight: 650;;
+    font-size: small; 
+    margin: -15px;     /* Adjust margin for smaller screens */
+    
+  }}
+
 }
